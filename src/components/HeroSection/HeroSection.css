@@ -1,0 +1,53 @@
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    
+    object-fit: contain;
+  }
+  
+  h4 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 5rem;
+    color: #1A1A1A;
+  }
+  .name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 110px;
+    background: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+  }
+  .desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: .4rem;
+
+    text-align: justify;
+
+    color: #1A1A1A;
+  }
+  
+
+  @media screen and (max-width: 900px){
+    
+    .name{
+      
+      font-weight: 500;
+      font-size: 2.6rem;
+      line-height: 50px;
+      margin-top: 2rem;
+      
+    }
+}
