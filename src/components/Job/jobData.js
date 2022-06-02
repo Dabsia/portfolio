@@ -25,9 +25,9 @@ export const jobData = [
     {
         'name' : 'CrownClothin',
         'jobDesc' : 'An E-commerce application',
-        'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/netflix.png',
+        'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/crwn.png',
         'language' : 'React - Redux - Firebase',
-        'githubLink' : 'https://github.com/Dabsia/netflix-clone-master'
+        'githubLink' : 'https://github.com/Dabsia/crwn-clothing-app'
     }
     
     

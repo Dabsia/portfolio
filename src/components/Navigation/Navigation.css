@@ -63,11 +63,11 @@ li{
     .nav__link{
         color: #000;
     }
+    .nav__active{
+        transform: translateX(0%);
+    }
 }
 
 /* Nav Active Class */
 
-.nav__active{
-    transform: translateX(0%);
-}
 
