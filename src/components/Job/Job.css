@@ -2,6 +2,7 @@
 .jobContainer{
     height: 70vh;
     width: 45%;
+    margin-bottom: 2rem;
     
 }
 .jobImg{
@@ -56,7 +57,8 @@
 @media screen and (max-width: 900px){
     .jobContainer{
         width: 100%;
-
+        
+        margin-bottom: 4rem;
         
     }
     .jobImg{

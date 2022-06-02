@@ -6,7 +6,7 @@ const Job = ({name, jobDesc, language, githubLink,img}) => {
   return (
     
     <div className='jobContainer' >
-            <img src = {img} className = 'jobImg' alt = {img} />
+            <img src = {img} className = 'jobImg' alt = {name} />
             <div className = 'special'>
                 <h3 className='productName'>{name}</h3>
                 <div className='Icons'>
@@ -15,7 +15,6 @@ const Job = ({name, jobDesc, language, githubLink,img}) => {
                 </div>
             </div>
             <p className='productDesc'>{jobDesc}</p>
-
             <p className='languages'>{language}</p>
     </div>
   )

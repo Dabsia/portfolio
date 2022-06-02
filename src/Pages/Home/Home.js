@@ -11,6 +11,7 @@ const Home = () => {
             <Navigation />
             <HeroSection/>
             
+            
         </div>
     );
 }
