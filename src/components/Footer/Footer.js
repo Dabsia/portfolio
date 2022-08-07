@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <h3>Contact Me</h3>
+      {/*<h3>Contact Me</h3>
 
       <div className='footerBtnContainers'>
       
@@ -14,7 +14,8 @@ const Footer = () => {
         <a href='https://www.linkedin.com/in/dabo-johnson-5b39a8211/' ><button className='cta'><i className="ri-linkedin-fill icons"></i>LinkedIn</button></a>
         
         <a href = 'https://github.com/Dabsia' ><button className='cta'><i className="ri-github-fill icons"></i>Github</button></a>
-      </div>
+  </div>*/}
+      Footer
     </div>
   )
 }

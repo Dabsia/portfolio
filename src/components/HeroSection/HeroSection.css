@@ -34,13 +34,12 @@
     font-weight: 300;
     font-size: 16px;
     margin-top: .4rem;
-
+    line-height: 1.5rem;
     text-align: justify;
-    color: #fff;
-    /* color: #1A1A1A; */
+    color: #1A1A1A;
   }
   .heyy{
-    color: #fff;
+    color: #1A1A1A;
   }
 
   @media screen and (max-width: 900px){

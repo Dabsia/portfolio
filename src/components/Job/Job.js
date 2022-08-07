@@ -10,7 +10,7 @@ const Job = ({name, jobDesc, language,url, githubLink,img}) => {
                 <h3 className='productName'>{name}</h3>
                 <div className='Icons'>
                 <a className='iconLink' target = 'blank' href = {githubLink}> <i className="ri-github-fill icon"></i></a>
-                <a className='iconLink' href={ url} > <i className="ri-link icon"></i></a>
+                <a className='iconLink' target = 'blank' href={ url} > <i className="ri-link icon"></i></a>
                 </div>
             </div>
             <p className='productDesc'>{jobDesc}</p>
