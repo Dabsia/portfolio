@@ -5,13 +5,13 @@ import './JobList.css'
 
 const JobList = () => {
   return (
-    <div>
+    <div className='jobListCont'>
       <h3 className='featuredProjects'>FEATURED PROJECTS</h3>
       <div className='jobList'>
           {
               jobData.map((job, id) => {
                   return (
-                      <Job key = {id} name = {job.name} githubLink = {job.githubLink} jobDesc = {job.jobDesc} img = {job.img} language = {job.language} />
+                      <Job key = {id} name = {job.name} url = {job.url} githubLink = {job.githubLink} jobDesc = {job.jobDesc} img = {job.img} language = {job.language} />
                   )
               })
           }
