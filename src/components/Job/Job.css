@@ -61,11 +61,11 @@
     .jobContainer{
         width: 100%;
         margin-bottom: 2rem;
-        height: 40vh;
+        height: 50vh;
     }
     .jobImg{
-        object-fit:contain
-        /* A sexy foreigner was fucked in a PUBLIC TRAIN. Risky Sex */
+        object-fit:contain;
+        height: 60%;
     }
     
 }

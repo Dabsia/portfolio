@@ -6,7 +6,7 @@ import lunchup from '../../Assets/lunchup.png'
 export const jobData = [
     {
         'name' : 'Lunchup',
-        'jobDesc' : 'A Food order app where users can order their favourite food',
+        'jobDesc' : 'A Food order app where users can order their favourite food.',
         // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/lunchup.png',
         'img' : lunchup,
         'language' : 'React - Redux - Firebase - React-router-dom',
@@ -28,7 +28,7 @@ export const jobData = [
     
     {
         'name' : 'e-Portal',
-        'jobDesc' : 'A web based portal system where students can register and carry out some school activities',
+        'jobDesc' : 'A web based portal system for students.',
         // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/netflix.png',
         'img' : e_portal,
         'language' : 'React JS - Firebase - Redux ',
@@ -38,7 +38,7 @@ export const jobData = [
     },
     {
         'name' : 'CrownClothin',
-        'jobDesc' : 'An E-commerce application where users can shop for their favourite clothing item',
+        'jobDesc' : 'An E-commerce application where users can shop for their favourite clothing item.',
         // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/crwn.png',
         'img' : crwn,
         'language' : 'React - Redux - Firebase',
