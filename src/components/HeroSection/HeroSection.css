@@ -45,11 +45,20 @@
   @media screen and (max-width: 900px){
     
     .name{
-      
       font-weight: 500;
       font-size: 2.6rem;
       line-height: 50px;
       margin-top: 2rem;
       
     }
+    .desc{
+      font-family: 'Inter';
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 1.5rem;
+
+  }
+  .heyy{
+    margin-top: 3rem;
+  }
 }

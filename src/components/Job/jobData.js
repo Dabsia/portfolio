@@ -28,10 +28,10 @@ export const jobData = [
     
     {
         'name' : 'e-Portal',
-        'jobDesc' : 'A web based portal system for students.',
+        'jobDesc' : 'A web based portal system where students can perform school operations.',
         // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/netflix.png',
         'img' : e_portal,
-        'language' : 'React JS - Firebase - Redux ',
+        'language' : 'React - Firebase - Redux - Paystack',
         'githubLink': 'https://github.com/Dabsia/e-portal',
         'url': 'https://biu-attendance.netlify.app/'
         
