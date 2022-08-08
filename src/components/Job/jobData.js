@@ -7,7 +7,6 @@ export const jobData = [
     {
         'name' : 'Lunchup',
         'jobDesc' : 'A Food order app where users can order their favourite food.',
-        // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/lunchup.png',
         'img' : lunchup,
         'language' : 'React - Redux - Firebase - React-router-dom',
         'githubLink': 'https://github.com/Dabsia/lunchup',
@@ -18,7 +17,6 @@ export const jobData = [
     {
         'name' : 'Attendance App',
         'jobDesc' : 'A react Mobile App that scans student ID card and marks them present. ',
-        // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/biuApp.png',
         'img' : biuApp,
         'language' : 'React - Redux - React-router-dom',
         'githubLink': 'https://github.com/akindoju/attendance-app',
@@ -29,7 +27,6 @@ export const jobData = [
     {
         'name' : 'e-Portal',
         'jobDesc' : 'A web based portal system where students can perform school operations.',
-        // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/netflix.png',
         'img' : e_portal,
         'language' : 'React - Firebase - Redux - Paystack',
         'githubLink': 'https://github.com/Dabsia/e-portal',
@@ -39,7 +36,6 @@ export const jobData = [
     {
         'name' : 'CrownClothin',
         'jobDesc' : 'An E-commerce application where users can shop for their favourite clothing item.',
-        // 'img' : 'https://raw.githubusercontent.com/Dabsia/portfolio/master/src/Assets/crwn.png',
         'img' : crwn,
         'language' : 'React - Redux - Firebase',
         'githubLink': 'https://github.com/Dabsia/crwn-clothing-app',
