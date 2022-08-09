@@ -34,12 +34,12 @@ export const jobData = [
         
     },
     {
-        'name' : 'CrownClothin',
+        'name' : 'Crwn-Clothn',
         'jobDesc' : 'An E-commerce application where users can shop for their favourite clothing item.',
         'img' : crwn,
         'language' : 'React - Redux - Firebase',
         'githubLink': 'https://github.com/Dabsia/crwn-clothing-app',
-        'url': 'https://biu-attendance.netlify.app/'
+        'url': 'https://crwn-clthn.herokuapp.com/'
         
     }
     
