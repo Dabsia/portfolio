@@ -20,8 +20,8 @@ export const jobData = [
         'jobDesc' : 'A React App where users can book reservation for their holiday. ',
         'img' : beaches,
         'language' : 'React - Tailwind',
-        'githubLink': 'https://github.com/akindoju/attendance-app',
-        'url': 'https://biu-attendance.netlify.app/'
+        'githubLink': 'https://github.com/Dabsia/Beaches',
+        'url': ''
         
     },
     
