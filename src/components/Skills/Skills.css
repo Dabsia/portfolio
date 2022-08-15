@@ -76,6 +76,9 @@
     .svg__innerContainer {
         width: 90%;
     }
+         .skillsholder {
+             margin: 4rem 0;
+         }
 }
 
 @media screen and (max-width: 750px) {

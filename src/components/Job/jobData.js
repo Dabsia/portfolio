@@ -2,6 +2,7 @@ import biuApp from '../../Assets/biuApp.png'
 import crwn from '../../Assets/crwn.png'
 import e_portal from '../../Assets/e-portal.png'
 import lunchup from '../../Assets/lunchup.png'
+import beaches from '../../Assets/Beaches.png'
 
 export const jobData = [
     {
@@ -15,10 +16,10 @@ export const jobData = [
         
     },
     {
-        'name' : 'Attendance App',
-        'jobDesc' : 'A react Mobile App that scans student ID card and marks them present. ',
-        'img' : biuApp,
-        'language' : 'React - Redux - React-router-dom',
+        'name' : 'Beaches.',
+        'jobDesc' : 'A React App where users can book reservation for their holiday. ',
+        'img' : beaches,
+        'language' : 'React - Tailwind',
         'githubLink': 'https://github.com/akindoju/attendance-app',
         'url': 'https://biu-attendance.netlify.app/'
         
@@ -30,7 +31,7 @@ export const jobData = [
         'img' : e_portal,
         'language' : 'React - Firebase - Redux - Paystack',
         'githubLink': 'https://github.com/Dabsia/e-portal',
-        'url': 'https://biu-attendance.netlify.app/'
+        'url': ''
         
     },
     {
