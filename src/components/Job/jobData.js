@@ -5,6 +5,7 @@ import lunchup from '../../Assets/lunchup.png'
 import beaches from '../../Assets/Beaches.png'
 import Soultunes from '../../Assets/soultunes.png'
 import cryptoverse from '../../Assets/cryptoverse.png'
+import note_ify from '../../Assets/note-ify.png'
 
 export const jobData = [
     {
@@ -36,12 +37,21 @@ export const jobData = [
 
     },
     {
+        'name': 'Note-ify',
+        'jobDesc': 'An application that allows lecturers post a reading material and students can download the posted material and read',
+        'img': note_ify,
+        'language': 'React - Redux - Javascript - REST API - Firebase',
+        'githubLink': 'https://github.com/Dabsia/note-ify',
+        'url': 'https://dabsia-note-ify.netlify.app/'
+
+    },
+    {
         'name': 'Cryptoverse.',
         'jobDesc': 'A React App where users can make API request to check the trendiest cryptocurrencies ',
         'img': cryptoverse,
         'language': 'React - Tailwind - redux',
         'githubLink': 'https://github.com/Dabsia/cryptoverse',
-        'url': ''
+        'url': 'https://dabsia-cryptoverse.netlify.app/'
 
     },
     {
