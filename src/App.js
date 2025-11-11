@@ -1,18 +1,17 @@
-import React from 'react';
-import Home from './Pages/Home/Home';
+import React from "react";
+
 import { Routes, Route } from "react-router-dom";
 
-import NotFound from './Pages/NotFound/NotFound';
+import Portfolio from "./Pages/Portfolio";
+import ProjectDetail from "./Pages/ProjectDetail";
 
-
-
-const App = () =>  {
+const App = () => {
   return (
-      <Routes>
-          <Route path = '/' element = {<Home/>} />
-          <Route path = '*' element = {<NotFound/>} />
-      </Routes>
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/:id" element={<ProjectDetail />} />
+    </Routes>
   );
-} 
+};
 
 export default App;
