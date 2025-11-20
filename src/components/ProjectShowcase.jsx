@@ -34,7 +34,7 @@ export default function ProjectShowcase({ project, index }) {
       >
         {/* Image Container */}
         <div
-          className={`relative aspect-[4/5] rounded-2xl overflow-hidden mb-6 ${project.color}`}
+          className={`relative h-[350px] rounded-2xl overflow-hidden mb-6 ${project.color}`}
         >
           <motion.img
             src={project.image}

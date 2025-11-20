@@ -39,7 +39,7 @@ export default function ProjectDetail() {
       heroImage: crwn,
       images: [crwn2, crwn3, crwn4],
       description:
-        "A next-generation e-commerce application designed to redefine online shopping for the modern consumer. Built with React Native and engineered for a fast, intuitive, and seamless shopping experience across all devices.",
+        "A next-generation e-commerce application designed to redefine online shopping for the modern consumer. Built with React and engineered for a fast, intuitive, and seamless shopping experience across all devices.",
       challenge:
         "The main challenge was building a shopping experience that felt both effortless and trustworthy. Users needed confidence in the platform’s security while enjoying a smooth, intuitive interface that made browsing, purchasing, and managing orders feel simple and enjoyable.",
       solution:
@@ -240,18 +240,18 @@ export default function ProjectDetail() {
             Back
           </Link>
 
-          <Link
-            to={"/"}
+          {/* <Link
+            to={"/#contact"}
             variant="ghost"
             className="text-sm w-fit flex items-center mx-0 hover:bg-transparent"
           >
             Contact <ArrowUpRight className="w-4 h-4 ml-1" />
-          </Link>
+          </Link> */}
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-8 md:px-16">
+      <section className="pt-32 pb-10 md:pb-20 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto">
           <div className="animate-fadeInUp">
             <p className="text-sm text-gray-500 mb-4">{project.client}</p>
@@ -304,7 +304,7 @@ export default function ProjectDetail() {
           <img
             src={project.heroImage}
             alt={project.title}
-            className="w-full aspect-[16/10] object-cover rounded-2xl"
+            className="w-full aspect-[16/10] object-contain rounded-2xl"
           />
         </div>
       </section>
@@ -342,7 +342,7 @@ export default function ProjectDetail() {
               <img
                 src={image}
                 alt={`${project.title} - Image ${index + 1}`}
-                className="w-full aspect-video object-cover rounded-2xl"
+                className="w-full aspect-video object-contain rounded-2xl"
               />
             </div>
           ))}

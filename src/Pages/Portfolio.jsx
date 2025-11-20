@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
-import crwn from "../Assets/crwnn2.png";
+import crwn from "../Assets/crwn3.png";
 import zinter from "../Assets/zinter.png";
 import auto from "../Assets/auto1.png";
 import soultunes1 from "../Assets/soultunes1.png";
@@ -163,17 +163,12 @@ export default function Portfolio() {
               Transforming design visions into pixel-perfect, high-performance
               web applications that users love to interact with.
             </p>
-
-            {/* <Button className="bg-black hover:bg-gray-800 text-white rounded-full px-8 h-12">
-              View Selected Work
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button> */}
           </motion.div>
         </div>
       </section>
 
       {/* Projects Grid */}
-      <section id="work" className="py-32 px-8 md:px-16">
+      <section id="work" className="py-10 md:py-20 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
             {projects.map((project, index) => (
@@ -184,7 +179,7 @@ export default function Portfolio() {
       </section>
 
       {/* Statement Section */}
-      <section className="py-20 px-8 md:px-16 bg-gray-50">
+      <section className="py-10 md:py-20 px-8 md:px-16 bg-gray-50">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -209,7 +204,7 @@ export default function Portfolio() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-32 px-8 md:px-16">
+      <section id="services" className="py-10 md:20 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto">
           <div className="mb-20">
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-8">
