@@ -11,6 +11,14 @@ import zinter1 from "../Assets/zinter1.png";
 import zinter2 from "../Assets/zinter2.png";
 import zinter4 from "../Assets/zinter4.png";
 import zinter3 from "../Assets/zinter3.png";
+import auto1 from "../Assets/auto1.png";
+import auto2 from "../Assets/auto2.png";
+import auto3 from "../Assets/auto3.png";
+import auto4 from "../Assets/auto4.png";
+import soultunes1 from "../Assets/soultunes1.png";
+import soultunes2 from "../Assets/soultunes2.png";
+import soultunes3 from "../Assets/soultunes3.png";
+import soultunes4 from "../Assets/soultunes4.png";
 
 export default function ProjectDetail() {
   const location = useLocation();
@@ -84,115 +92,110 @@ export default function ProjectDetail() {
         "Stripe Payments",
       ],
       features: [
-        "Interactive 3D logo animation",
-        "Smooth scroll-based animations",
-        "Dynamic portfolio grid",
-        "Advanced cursor interactions",
+        "Interactive route and address verification maps",
+        "AI-assisted item scanning for move planning",
+        "Manual item selection for custom moves",
+        "Real-time move tracking dashboard",
+        "Secure online payments via Stripe",
+        "Automated move reports and summaries",
+        "Smooth scroll-based animations for a polished UX",
+        "Responsive design optimized for all devices",
         "Performance-optimized media loading",
-        "Headless CMS integration",
+        "CMS integration for easy service updates",
       ],
       results: [
-        "Won Awwwards Site of the Day",
-        "100% Lighthouse performance score",
-        "300% increase in client inquiries",
-        "Featured on CSS Design Awards",
+        "Streamlined the moving process for customers, reducing planning time",
+        "Enabled accurate move estimates with AI-assisted item scanning",
+        "Improved customer confidence with real-time tracking",
+        "Facilitated secure online payments, increasing completed bookings",
+        "Received positive feedback from users for ease of use and clarity",
+        "Enhanced operational efficiency by digitizing reporting and move management",
       ],
       link: "https://zinter.nl",
       nextProject: {
-        id: "healthcare-app",
-        title: "Healthcare Mobile App",
+        id: "auto-spa-club",
+        title: "Car Wash Business",
       },
     },
-    "healthcare-app": {
-      id: "healthcare-app",
-      title: "Healthcare Mobile App",
-      client: "CareSunset",
-      category: "Healthcare",
-      year: "2024",
-      role: "Senior Frontend Developer",
-      heroImage:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1400&q=80",
-      images: [
-        "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=1200&q=80",
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80",
-        "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=1200&q=80",
-      ],
+    "auto-spa-club": {
+      id: "auto-spa-club",
+      title: "Car Wash Business",
+      client: "Auto Spa Club",
+      category: "Automotive / Car Services",
+      year: "2025",
+      role: "Fullstack Developer",
+      heroImage: auto1,
+      images: [auto2, auto3, auto4],
       description:
-        "A comprehensive healthcare platform connecting patients with doctors through an intuitive mobile interface. Features telemedicine, appointment booking, and health tracking.",
+        "A modern car wash app that makes keeping your vehicle clean effortless. Users can schedule one-time or recurring washes, choose from a variety of service options, and manage monthly subscriptions for unlimited convenience and secure payments ensure a seamless and reliable experience, all from the convenience of a smartphone.",
       challenge:
-        "Building a healthcare application that meets HIPAA compliance standards while providing a consumer-grade user experience.",
+        "The challenge was to build a digital platform that makes booking and managing car cleaning services simple, reliable, and convenient. Users needed an easy way to schedule appointments, choose service types, and track service status, while also offering flexible subscription plans for recurring car washes.",
       solution:
-        "Developed a secure, scalable React application with end-to-end encryption and robust state management. Implemented real-time video consultations and a sophisticated appointment system with smart scheduling algorithms.",
+        "I developed a mobile friendly web application. With a clean, intuitive interface and seamless scheduling flow, customers can effortlessly manage their car wash needs while the business can efficiently handle appointments and recurring subscriptions.",
       technologies: [
-        "React",
-        "WebRTC",
-        "Socket.io",
-        "Redux",
-        "Material-UI",
-        "Node.js",
-      ],
-      features: [
-        "HIPAA-compliant video consultations",
-        "Smart appointment scheduling",
-        "Electronic health records",
-        "Prescription management",
-        "Health metrics tracking",
-        "Multi-language support",
-      ],
-      results: [
-        "10,000+ active users in 3 months",
-        "4.8/5 app store rating",
-        "99.9% uptime maintained",
-        "HIPAA certification achieved",
-      ],
-      link: "#",
-      nextProject: {
-        id: "ecommerce-platform",
-        title: "E-Commerce Platform",
-      },
-    },
-    "ecommerce-platform": {
-      title: "E-Commerce Platform",
-      client: "Small Birdy",
-      category: "Grocery Web App",
-      year: "2023",
-      role: "Full Stack Frontend Developer",
-      heroImage:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?w=1400&q=80",
-      images: [
-        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=1200&q=80",
-        "https://images.unsplash.com/photo-1542838132-92c53300491e?w=1200&q=80",
-        "https://images.unsplash.com/photo-1601598851547-4302969d0614?w=1200&q=80",
-      ],
-      description:
-        "A modern grocery shopping platform with real-time inventory management, personalized recommendations, and seamless checkout experience.",
-      challenge:
-        "Creating a fast, responsive shopping experience that handles thousands of products while providing personalized recommendations and managing complex cart logic.",
-      solution:
-        "Built a performant Progressive Web App using React with advanced caching strategies. Implemented virtual scrolling for product lists, optimistic UI updates, and a sophisticated recommendation engine integration.",
-      technologies: [
-        "React",
-        "PWA",
-        "GraphQL",
-        "Apollo Client",
+        "React JS",
+        "Node Js",
+        "Express Js",
+        "Mongo DB",
         "Stripe",
-        "Service Workers",
+        "Tailwind CSS",
       ],
       features: [
-        "Smart product search",
-        "Personalized recommendations",
-        "One-click checkout",
-        "Real-time inventory tracking",
-        "Shopping list management",
-        "Offline mode support",
+        "Schedule one-time or recurring car washes",
+        "Manage monthly subscription plans for unlimited washes",
+        "Select from a variety of service options",
+        "Secure in-app payments and checkout",
+        "Customers can create reviews and provide feedback",
+        "User-friendly interface for quick booking",
+        "Appointment history and service tracking",
+        "Ratings and feedback for completed services",
       ],
       results: [
-        "200% increase in conversion rate",
-        "45% decrease in cart abandonment",
-        "PWA installed by 30% of users",
-        "Average load time under 2 seconds",
+        "Streamlined the booking process, reducing scheduling time for customers",
+        "Increased customer retention through monthly subscription plans",
+        "Enabled real-time service tracking, improving customer satisfaction",
+        "Facilitated secure payments, boosting completed bookings",
+        "Empowered customers to leave reviews, enhancing trust and feedback collection",
+        "Improved operational efficiency for managing appointments and recurring services",
       ],
-      link: "#",
+      link: "https://auto-spa-club.vercel.app/",
+      nextProject: {
+        id: "soultunes",
+        title: "Soultunes",
+      },
+    },
+    soultunes: {
+      title: "Soultunes",
+      client: "Personal",
+      category: "Entertainment",
+      year: "2023",
+      role: "Frontend Developer",
+      heroImage: soultunes1,
+      images: [soultunes2, soultunes3, soultunes4],
+      description:
+        "A personal music streaming and downloading web app designed to provide a seamless listening experience. Users can stream their favorite tracks, download music for offline listening, and organize playlists in an intuitive, user-friendly interface.",
+      challenge:
+        "The main challenge was building a fast, responsive platform that could handle music streaming and downloading efficiently while maintaining a simple and enjoyable user experience. Managing large audio files, ensuring smooth playback, and providing offline access were key technical hurdles.",
+      solution:
+        "I developed a web app using modern web technologies that supports real-time streaming, track downloads fetched from a API.The platform includes a clean interface, smooth navigation, and performance optimizations to ensure fast loading and seamless playback.",
+      technologies: ["React", "Firebase", "Custom CSS", "REST API"],
+      features: [
+        "Stream music directly from the web app",
+        "Download tracks for offline listening",
+        "Search and filter songs by artist, album, or genre",
+        "Responsive design for desktop and mobile devices",
+        "Smooth playback with minimal buffering",
+        "User-friendly interface with intuitive navigation",
+        "Request songs to be added to the library",
+      ],
+      results: [
+        "Personalized music library easily accessible from any device",
+        "Offline listening enabled, providing flexibility and convenience",
+        "Improved music organization with playlists and search functionality",
+        "Enhanced technical skills in building media streaming and download features",
+        "Demonstrated ability to handle performance optimization for large media files",
+      ],
+      link: "https://auto-spa-club.vercel.app/",
       nextProject: {
         id: "crwn-clothn",
         title: "Crwn Clothn",
@@ -237,13 +240,13 @@ export default function ProjectDetail() {
             Back
           </Link>
 
-          <div className="text-2xl cursor-pointer font-light tracking-tight">
-            <Link to={"/"}>Dabo Johnson</Link>
-          </div>
-
-          <Button variant="ghost" className="text-sm px-0 hover:bg-transparent">
+          <Link
+            to={"/"}
+            variant="ghost"
+            className="text-sm w-fit flex items-center mx-0 hover:bg-transparent"
+          >
             Contact <ArrowUpRight className="w-4 h-4 ml-1" />
-          </Button>
+          </Link>
         </div>
       </nav>
 
@@ -294,7 +297,7 @@ export default function ProjectDetail() {
 
       {/* Hero Image */}
       <section
-        className="px-8 md:px-16 mb-32 animate-fadeInScale"
+        className="px-8 md:px-16 md-32 animate-fadeInScale"
         style={{ animationDelay: "0.3s" }}
       >
         <div className="max-w-[1400px] mx-auto">
@@ -307,7 +310,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Challenge & Solution */}
-      <section className="py-20 px-8 md:px-16">
+      <section className="md:py-20 py-10 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 gap-16 md:gap-24">
           <div className="fade-in-on-scroll">
             <h2 className="text-3xl font-light mb-6">The Challenge</h2>
@@ -326,7 +329,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Image Gallery */}
-      <section className="py-20 px-8 md:px-16">
+      <section className="md:py-20 py-10 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 gap-8">
           {project.images.map((image, index) => (
             <div
@@ -347,7 +350,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Technologies & Features */}
-      <section className="py-20 px-8 md:px-16 bg-gray-50">
+      <section className="md:py-20 py-10 px-8 md:px-16 bg-gray-50">
         <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 gap-16 md:gap-24">
           <div className="fade-in-on-scroll">
             <h2 className="text-3xl font-light mb-8">Technologies</h2>
@@ -381,7 +384,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Results */}
-      <section className="py-20 px-8 md:px-16">
+      <section className="md:py-20 py-10 px-8 md:px-16">
         <div className="max-w-[1400px] mx-auto">
           <div className="fade-in-on-scroll">
             <h2 className="text-3xl font-light mb-12">Results & Impact</h2>
@@ -399,7 +402,7 @@ export default function ProjectDetail() {
       </section>
 
       {/* Next Project */}
-      <section className="py-32 px-8 md:px-16 border-t border-gray-200">
+      <section className="md:py-20 py-10 px-8 md:px-16 border-t border-gray-200">
         <div className="max-w-[1400px] mx-auto">
           <div className="text-center fade-in-on-scroll">
             <p className="text-sm text-gray-500 mb-4">Next Project</p>

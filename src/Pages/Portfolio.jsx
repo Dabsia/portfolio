@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Button from "../utils/Button";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
 import crwn from "../Assets/crwnn2.png";
 import zinter from "../Assets/zinter.png";
+import auto from "../Assets/auto1.png";
+import soultunes1 from "../Assets/soultunes1.png";
 
 export default function Portfolio() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,32 +25,28 @@ export default function Portfolio() {
       title: "Crwn Clothn",
       client: "Personal",
       category: "E-Commerce",
-      // image:
-      //   "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
       image: crwn,
       color: "bg-slate-50",
     },
     {
       title: "Zinter",
-      client: "Dazzle Inc.",
-      category: "Branding",
+      client: "Zinter",
+      category: "Logistics annd Transportation",
       image: zinter,
       color: "bg-purple-50",
     },
     {
-      title: "Healthcare Mobile App",
-      client: "CareSunset",
-      category: "Healthcare",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80",
+      title: "Auto Spa Club",
+      client: "Auto Spa Club",
+      category: "Automotive / Car Services",
+      image: auto,
       color: "bg-blue-50",
     },
     {
-      title: "E-Commerce Platform",
-      client: "Small Birdy",
-      category: "Grocery Web App",
-      image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?w=1200&q=80",
+      title: "Soultunes",
+      client: "Personal",
+      category: "Entertainment",
+      image: soultunes1,
       color: "bg-emerald-50",
     },
   ];
@@ -57,13 +55,15 @@ export default function Portfolio() {
     {
       title: "Frontend Development",
       items: [
-        "React & Next.js",
+        "React",
+        "Next.js",
         "TypeScript",
         "Responsive Design",
         "Performance Optimization",
         "Redux and Zustand",
         "Figma",
         "Tailwind CSS",
+        "GraphQL",
       ],
     },
     {
@@ -71,7 +71,7 @@ export default function Portfolio() {
       items: [
         "Cross-Platform Mobile Development with React Native",
         "Component Styling & Layouts",
-        "API Integration & State Management",
+        "REST API Integration & State Management",
         "Performance Optimization & Debugging",
       ],
     },
@@ -84,8 +84,10 @@ export default function Portfolio() {
         "Git and Github",
         "SPA Development",
         "Progressive Web Apps",
-        "API Integration",
+        "REST API Integration",
         "State Management",
+        "NPM, YARN, WEBPACK, BABEL",
+        "Testing, AGILE",
       ],
     },
   ];
@@ -182,7 +184,7 @@ export default function Portfolio() {
       </section>
 
       {/* Statement Section */}
-      <section className="py-32 px-8 md:px-16 bg-gray-50">
+      <section className="py-20 px-8 md:px-16 bg-gray-50">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -202,13 +204,6 @@ export default function Portfolio() {
               Dive into the stories of successful web applications that combine
               beautiful interfaces with seamless functionality.
             </p>
-            {/* <Button
-              variant="ghost"
-              className="text-base px-0 hover:bg-transparent group"
-            >
-              View All Projects
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button> */}
           </motion.div>
         </div>
       </section>
@@ -231,7 +226,7 @@ export default function Portfolio() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-32 px-8 md:px-16 bg-black text-white">
+      <section id="about" className="py-20 px-8 md:px-16 bg-black text-white">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid md:grid-cols-1 gap-16 items-center">
             <motion.div
@@ -247,9 +242,9 @@ export default function Portfolio() {
                 Building bridges between design and technology
               </h2>
               <p className="text-lg text-gray-400 font-light leading-relaxed mb-6">
-                With over 6 years of experience in frontend development, I
-                specialize in bringing design visions to life through clean,
-                maintainable code and thoughtful engineering.
+                With over 3 years of professional experience in frontend
+                development, I specialize in bringing design visions to life
+                through clean, maintainable code and thoughtful engineering.
               </p>
               <p className="text-lg text-gray-400 font-light leading-relaxed mb-12">
                 I believe that great interfaces are born from the perfect

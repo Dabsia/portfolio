@@ -11,8 +11,8 @@ export default function ProjectShowcase({ project, index }) {
   const projectIds = {
     "Crwn Clothn": "crwn-clothn",
     Zinter: "zinter",
-    "Healthcare Mobile App": "healthcare-app",
-    "E-Commerce Platform": "ecommerce-platform",
+    "Auto Spa Club": "auto-spa-club",
+    Soultunes: "soultunes",
   };
 
   const projectId = projectIds[project.title];
