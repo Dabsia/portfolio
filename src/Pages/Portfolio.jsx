@@ -141,7 +141,7 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-8 md:px-16 pt-24">
+      <section className="h-[80vh] flex items-center justify-center px-8 md:px-16 pt-24">
         <div className="max-w-[1400px] mx-auto w-full">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
