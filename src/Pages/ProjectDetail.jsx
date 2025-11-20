@@ -3,6 +3,14 @@ import Button from "../utils/Button";
 import { ArrowLeft, ArrowUpRight, ExternalLink } from "lucide-react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { createPageUrl } from "../utils/CreatePageUrl";
+import crwn from "../Assets/crwnn2.png";
+import crwn2 from "../Assets/crwn2.png";
+import crwn3 from "../Assets/crwn3.png";
+import crwn4 from "../Assets/crwn4.png";
+import zinter1 from "../Assets/zinter1.png";
+import zinter2 from "../Assets/zinter2.png";
+import zinter4 from "../Assets/zinter4.png";
+import zinter3 from "../Assets/zinter3.png";
 
 export default function ProjectDetail() {
   const location = useLocation();
@@ -13,81 +21,67 @@ export default function ProjectDetail() {
 
   // Project data - in a real app this would come from a database
   const projects = {
-    "dello-banking": {
-      id: "dello-banking",
-      title: "Dello Banking App",
-      client: "Booking Corp.",
-      category: "Fintech",
+    "crwn-clothn": {
+      id: "crwn-clothn",
+      title: "Crwn Clothn",
+      client: "Personal",
+      category: "E-Commerce",
       year: "2024",
-      role: "Lead Frontend Developer",
-      heroImage:
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1400&q=80",
-      images: [
-        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
-        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
-      ],
+      role: "Frontend Developer",
+      heroImage: crwn,
+      images: [crwn2, crwn3, crwn4],
       description:
-        "A revolutionary fintech application that reimagines mobile banking for the modern user. Built with React Native and a focus on seamless user experience.",
+        "A next-generation e-commerce application designed to redefine online shopping for the modern consumer. Built with React Native and engineered for a fast, intuitive, and seamless shopping experience across all devices.",
       challenge:
-        "The main challenge was creating a banking experience that felt both secure and approachable. Users needed confidence in the platform while enjoying a smooth, intuitive interface that made complex financial tasks feel simple.",
+        "The main challenge was building a shopping experience that felt both effortless and trustworthy. Users needed confidence in the platform’s security while enjoying a smooth, intuitive interface that made browsing, purchasing, and managing orders feel simple and enjoyable.",
       solution:
-        "We developed a component-based architecture using React and TypeScript, implementing a custom design system that ensured consistency across all touchpoints. The interface prioritizes clarity and speed, with real-time updates and smooth animations that guide users through their financial journey.",
-      technologies: [
-        "React",
-        "TypeScript",
-        "Redux Toolkit",
-        "Framer Motion",
-        "Tailwind CSS",
-        "REST API",
-      ],
+        "I developed a modular, component-based architecture using React and JavaScript, supported by a custom design system that ensured consistency across every shopping touchpoint. The interface was optimized for clarity and speed, with real-time product updates, smooth transitions, and intuitive navigation that guide users effortlessly from discovery to checkout.",
+      technologies: ["React", "JavaScript", "Redux", "Firebase", "Stripe"],
       features: [
-        "Real-time transaction monitoring",
-        "Intuitive money transfer system",
-        "Interactive spending analytics",
-        "Biometric authentication",
-        "Custom notification system",
-        "Dark mode support",
+        "Responsive design for mobile and desktop",
+        "Shopping cart management",
+        "Stripe payment option",
+        "Smooth and secure checkout flow",
+        "Authentication System with both Google signin and email signin",
+        "Contact Us and Support",
       ],
       results: [
-        "40% increase in user engagement",
-        "95% positive user feedback",
-        "50% reduction in support tickets",
-        "Featured in Product Hunt",
+        "Improved user engagement and shopping experience",
+        "Received positive feedback from beta testers",
+        "Reduced friction in the checkout process",
+        "Implemented features that enhanced product discovery",
+        "Demonstrated ability to design and build a full-featured e-commerce app",
       ],
       link: "https://dabsia-crwn-clothn.netlify.app/shop",
       nextProject: {
-        id: "dazzle-branding",
-        title: "Dazzle Branding",
+        id: "zinter",
+        title: "Zinter",
       },
     },
-    "dazzle-branding": {
-      id: "dazzle-branding",
-      title: "Dazzle © Branding",
-      client: "Dazzle Inc.",
-      category: "Branding",
-      year: "2024",
-      role: "Frontend Developer & UI Engineer",
-      heroImage:
-        "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1400&q=80",
-      images: [
-        "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1200&q=80",
-        "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=1200&q=80",
-        "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=1200&q=80",
-      ],
+    zinter: {
+      id: "zinter",
+      title: "Zinter",
+      client: "Zinter",
+      category: "Logistics & Transportation",
+      year: "2025",
+      role: "Lead Frontend Developer",
+      heroImage: zinter1,
+      images: [zinter4, zinter3, zinter2],
       description:
-        "A complete digital branding experience for a bold new creative agency. The website showcases their portfolio with stunning animations and interactive elements.",
+        "A digital platform for a trusted Dutch moving and logistics company. The website helps users easily schedule local and international moves, track shipments in real time, and explore services through a clean, intuitive, and interactive interface designed for the Netherlands market.",
       challenge:
-        "Create a digital presence that captures Dazzle's bold, creative spirit while maintaining fast performance and accessibility standards.",
+        "The challenge was to create a digital platform that conveys the company’s reliability and professionalism while ensuring fast performance, intuitive navigation, and accessibility for users across the Netherlands. Customers needed a seamless way to schedule moves, get quotes, and track their shipments with confidence.",
       solution:
-        "Implemented a cutting-edge web experience using Next.js with advanced animation libraries. Created custom SVG animations and WebGL effects that respond to user interactions, all while maintaining a Lighthouse score above 95.",
+        "We developed a fast, intuitive web platform using React.js, featuring interactive maps that allow users to verify their current and new addresses. AI-assisted item scanning lets users quickly list belongings for the move, with the option to manually select items as well. The platform also supports real-time move tracking, detailed reporting, and secure payments through Stripe, creating a seamless end-to-end moving experience.",
       technologies: [
-        "Next.js",
-        "Three.js",
-        "GSAP",
-        "Styled Components",
-        "WebGL",
-        "Contentful CMS",
+        "React.js",
+        "AI",
+        "Tailwind CSS",
+        "Custom CSS",
+        "Google Maps",
+        "Redux",
+        "API Integration",
+        "Stripe Payments",
       ],
       features: [
         "Interactive 3D logo animation",
@@ -103,7 +97,7 @@ export default function ProjectDetail() {
         "300% increase in client inquiries",
         "Featured on CSS Design Awards",
       ],
-      link: "#",
+      link: "https://zinter.nl",
       nextProject: {
         id: "healthcare-app",
         title: "Healthcare Mobile App",
@@ -200,8 +194,8 @@ export default function ProjectDetail() {
       ],
       link: "#",
       nextProject: {
-        id: "dello-banking",
-        title: "Dello Banking App",
+        id: "crwn-clothn",
+        title: "Crwn Clothn",
       },
     },
   };
@@ -223,7 +217,7 @@ export default function ProjectDetail() {
           <h1 className="text-4xl font-light mb-4">Project not found</h1>
           <Button onClick={() => navigate(-1)}>
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Portfolio
+            Back
           </Button>
         </div>
       </div>
@@ -240,10 +234,12 @@ export default function ProjectDetail() {
             className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Portfolio
+            Back
           </Link>
 
-          <div className="text-2xl font-light tracking-tight">Dabo Johnson</div>
+          <div className="text-2xl cursor-pointer font-light tracking-tight">
+            <Link to={"/"}>Dabo Johnson</Link>
+          </div>
 
           <Button variant="ghost" className="text-sm px-0 hover:bg-transparent">
             Contact <ArrowUpRight className="w-4 h-4 ml-1" />
@@ -410,8 +406,8 @@ export default function ProjectDetail() {
             <h2 className="text-4xl md:text-5xl font-light mb-8">
               {project.nextProject.title}
             </h2>
-            <Link to={`${createPageUrl("/")}?id=${project.nextProject.id}`}>
-              <Button className="bg-black hover:bg-gray-800 text-white rounded-full px-8 h-12">
+            <Link to={`${createPageUrl("")}${project.nextProject.id}`}>
+              <Button className="bg-black mx-auto hover:bg-gray-800 text-white rounded-full px-8 h-12">
                 View Project
                 <ArrowUpRight className="w-4 h-4 ml-2" />
               </Button>

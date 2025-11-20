@@ -9,8 +9,8 @@ export default function ProjectShowcase({ project, index }) {
 
   // Map project titles to IDs for navigation
   const projectIds = {
-    "Dello Banking App": "dello-banking",
-    "Dazzle © Branding": "dazzle-branding",
+    "Crwn Clothn": "crwn-clothn",
+    Zinter: "zinter",
     "Healthcare Mobile App": "healthcare-app",
     "E-Commerce Platform": "ecommerce-platform",
   };

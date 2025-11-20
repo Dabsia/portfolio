@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
 import crwn from "../Assets/crwnn2.png";
+import zinter from "../Assets/zinter.png";
 
 export default function Portfolio() {
   const [scrolled, setScrolled] = useState(false);
@@ -19,20 +20,19 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Dello Banking App",
-      client: "Booking Corp.",
-      category: "Fintech",
+      title: "Crwn Clothn",
+      client: "Personal",
+      category: "E-Commerce",
       // image:
       //   "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
       image: crwn,
       color: "bg-slate-50",
     },
     {
-      title: "Dazzle © Branding",
+      title: "Zinter",
       client: "Dazzle Inc.",
       category: "Branding",
-      image:
-        "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80",
+      image: zinter,
       color: "bg-purple-50",
     },
     {
@@ -61,6 +61,9 @@ export default function Portfolio() {
         "TypeScript",
         "Responsive Design",
         "Performance Optimization",
+        "Redux and Zustand",
+        "Figma",
+        "Tailwind CSS",
       ],
     },
     {
@@ -75,6 +78,10 @@ export default function Portfolio() {
     {
       title: "Web Applications",
       items: [
+        "Python",
+        "Node Js, Express Js And MongoDB",
+        "Firebase, Clerk, Supabase",
+        "Git and Github",
         "SPA Development",
         "Progressive Web Apps",
         "API Integration",
