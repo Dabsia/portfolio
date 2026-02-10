@@ -18,7 +18,7 @@ export default function ProjectCard({ project }) {
       <div className="relative overflow-hidden aspect-video">
         <motion.img
           src={project.image}
-          alt={project.title}
+          alt="My Project — interactive portfolio demo"
           className="w-full h-full object-cover"
           animate={{ scale: isHovered ? 1.1 : 1 }}
           transition={{ duration: 0.6 }}
