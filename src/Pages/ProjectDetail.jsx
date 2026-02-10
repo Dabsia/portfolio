@@ -303,7 +303,7 @@ export default function ProjectDetail() {
         <div className="max-w-[1400px] mx-auto">
           <img
             src={project.heroImage}
-            alt={project.title}
+            alt='"My Project — interactive portfolio demo"'
             className="w-full aspect-[16/10] object-contain rounded-2xl"
           />
         </div>
@@ -341,7 +341,7 @@ export default function ProjectDetail() {
             >
               <img
                 src={image}
-                alt={`${project.title} - Image ${index + 1}`}
+                alt={`alt="My Project — interactive portfolio demo"`}
                 className="w-full aspect-video object-contain rounded-2xl"
               />
             </div>

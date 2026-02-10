@@ -38,7 +38,7 @@ export default function ProjectShowcase({ project, index }) {
         >
           <motion.img
             src={project.image}
-            alt={project.title}
+            alt="My Project — interactive portfolio demo"
             className="w-full h-full object-cover"
             animate={{
               scale: isHovered ? 1.05 : 1,
