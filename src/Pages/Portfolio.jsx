@@ -81,6 +81,7 @@ export default function Portfolio() {
         "Python",
         "Node Js, Express Js And MongoDB",
         "Firebase, Clerk, Supabase",
+        "Docker",
         "Git and Github",
         "SPA Development",
         "Progressive Web Apps",
