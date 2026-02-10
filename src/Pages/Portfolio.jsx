@@ -300,7 +300,7 @@ export default function Portfolio() {
 
             <div className="flex flex-col md:flex-row gap-8 md:gap-12">
               <a
-                href="https://www.linkedin.com/in/daboikiabo-johnson-johnson-5b39a8211/"
+                href="https://www.linkedin.com/in/daboikiabo-johnson-5b39a8211/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
