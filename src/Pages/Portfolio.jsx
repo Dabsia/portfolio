@@ -83,12 +83,10 @@ export default function Portfolio() {
         "Firebase, Clerk, Supabase",
         "Docker",
         "Git and Github",
-        "SPA Development",
-        "Progressive Web Apps",
         "REST API Integration",
         "State Management",
         "NPM, YARN, WEBPACK, BABEL",
-        "Testing, AGILE",
+        "Testing",
       ],
     },
   ];
