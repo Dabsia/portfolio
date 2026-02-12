@@ -58,6 +58,7 @@ export default function Portfolio() {
         "React",
         "Next.js",
         "TypeScript",
+        "Vue Js",
         "Responsive Design",
         "Performance Optimization",
         "Redux and Zustand",
@@ -76,7 +77,7 @@ export default function Portfolio() {
       ],
     },
     {
-      title: "Web Applications",
+      title: "Other Tools in my Belt",
       items: [
         "Python",
         "Node Js, Express Js And MongoDB",
