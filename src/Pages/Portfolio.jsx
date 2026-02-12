@@ -64,7 +64,6 @@ export default function Portfolio() {
         "Redux and Zustand",
         "Figma",
         "Tailwind CSS",
-        "GraphQL",
       ],
     },
     {
@@ -77,17 +76,15 @@ export default function Portfolio() {
       ],
     },
     {
-      title: "Other Tools in my Belt",
+      title: "Engineering Ecosystem",
       items: [
-        "Python",
-        "Node Js, Express Js And MongoDB",
-        "Firebase, Clerk, Supabase",
-        "Docker",
-        "Git and Github",
-        "REST API Integration",
-        "State Management",
-        "NPM, YARN, WEBPACK, BABEL",
-        "Testing",
+        "Backend Development (Node.js, Express, MongoDB, Python)",
+        "Authentication & BaaS (Firebase, Clerk, Supabase)",
+        "API Design (REST, GraphQL)",
+        "DevOps(Docker, CI/CD)",
+        "Version Control (Git, GitHub)",
+        "Build Systems & Tooling (Webpack, Babel, NPM, Yarn)",
+        "Testing & Debugging (Jest, React Testing Library, Cypress)",
       ],
     },
   ];
