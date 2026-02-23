@@ -195,7 +195,7 @@ export default function ProjectDetail() {
         "Enhanced technical skills in building media streaming and download features",
         "Demonstrated ability to handle performance optimization for large media files",
       ],
-      link: "https://auto-spa-club.vercel.app/",
+      link: "https://soultunes.netlify.app/",
       nextProject: {
         id: "crwn-clothn",
         title: "Crwn Clothn",
