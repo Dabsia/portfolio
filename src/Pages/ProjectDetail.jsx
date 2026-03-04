@@ -34,8 +34,8 @@ export default function ProjectDetail() {
       title: "Crwn Clothn",
       client: "Personal",
       category: "E-Commerce",
-      year: "2024",
-      role: "Frontend Developer",
+      year: "2025",
+      role: "Fullstack Developer",
       heroImage: crwn,
       images: [crwn2, crwn3, crwn4],
       description:
@@ -43,8 +43,17 @@ export default function ProjectDetail() {
       challenge:
         "The main challenge was building a shopping experience that felt both effortless and trustworthy. Users needed confidence in the platform’s security while enjoying a smooth, intuitive interface that made browsing, purchasing, and managing orders feel simple and enjoyable.",
       solution:
-        "I developed a modular, component-based architecture using React and JavaScript, supported by a custom design system that ensured consistency across every shopping touchpoint. The interface was optimized for clarity and speed, with real-time product updates, smooth transitions, and intuitive navigation that guide users effortlessly from discovery to checkout.",
-      technologies: ["React", "JavaScript", "Redux", "Firebase", "Stripe"],
+        "I built a scalable full-stack e-commerce application using the MERN stack (MongoDB, Express.js, React, Node.js), developing a modular React frontend with a custom design system for consistent and responsive user interfaces. On the backend, I created RESTful APIs for authentication, product, and order management using Express and Node.js, with optimized MongoDB queries to improve data handling efficiency and performance, delivering a fast and seamless shopping experience from product discovery to checkout.",
+      technologies: [
+        "React",
+        "JavaScript",
+        "Redux",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase",
+        "Stripe",
+      ],
       features: [
         "Responsive design for mobile and desktop",
         "Shopping cart management",
