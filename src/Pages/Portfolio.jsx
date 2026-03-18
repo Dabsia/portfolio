@@ -147,7 +147,7 @@ export default function Portfolio() {
             className="text-center max-w-5xl mx-auto"
           >
             <p className="text-sm uppercase tracking-widest text-gray-500 mb-8">
-              Frontend Development · UI Engineering
+              Software Engineer · UI Engineering
             </p>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-light leading-[1.1] mb-12 tracking-tight">
@@ -234,7 +234,7 @@ export default function Portfolio() {
                 Building bridges between design and technology
               </h2>
               <p className="text-lg text-gray-400 font-light leading-relaxed mb-6">
-                With over 3 years of professional experience in frontend
+                With over 3 years of professional experience in software
                 development, I specialize in bringing design visions to life
                 through clean, maintainable code and thoughtful engineering.
               </p>
@@ -291,7 +291,7 @@ export default function Portfolio() {
             <div>
               <div className="text-2xl font-light mb-2">Dabo Johnson</div>
               <p className="text-sm text-gray-500">
-                Frontend Developer · UI Engineer
+                Software Engineer · UI Engineer
               </p>
             </div>
 
