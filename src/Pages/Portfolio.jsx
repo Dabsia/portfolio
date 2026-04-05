@@ -28,13 +28,13 @@ export default function Portfolio() {
       image: crwn,
       color: "bg-slate-50",
     },
-    {
-      title: "Zinter",
-      client: "Zinter",
-      category: "Logistics annd Transportation",
-      image: zinter,
-      color: "bg-purple-50",
-    },
+    // {
+    //   title: "Zinter",
+    //   client: "Zinter",
+    //   category: "Logistics annd Transportation",
+    //   image: zinter,
+    //   color: "bg-purple-50",
+    // },
     {
       title: "Auto Spa Club",
       client: "Auto Spa Club",
@@ -290,9 +290,7 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
             <div>
               <div className="text-2xl font-light mb-2">Dabo Johnson</div>
-              <p className="text-sm text-gray-500">
-                Software Engineer
-              </p>
+              <p className="text-sm text-gray-500">Software Engineer</p>
             </div>
 
             <div className="flex flex-col md:flex-row gap-8 md:gap-12">
