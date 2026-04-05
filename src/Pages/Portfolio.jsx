@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
 import crwn from "../Assets/crwn3.png";
-import zinter from "../Assets/zinter.png";
+// import zinter from "../Assets/zinter.png";
 import auto from "../Assets/auto1.png";
 import soultunes1 from "../Assets/soultunes1.png";
 

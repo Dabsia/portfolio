@@ -10,7 +10,7 @@ export default function ProjectShowcase({ project, index }) {
   // Map project titles to IDs for navigation
   const projectIds = {
     "Crwn Clothn": "crwn-clothn",
-    Zinter: "zinter",
+    // Zinter: "zinter",
     "Auto Spa Club": "auto-spa-club",
     Soultunes: "soultunes",
   };
