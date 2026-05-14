@@ -11,6 +11,7 @@ export default function ProjectShowcase({ project, index }) {
   const projectIds = {
     "Crwn Clothn": "crwn-clothn",
     // Zinter: "zinter",
+    "Da Ultimate Stores": 'da-ultimate-stores',
     "Auto Spa Club": "auto-spa-club",
     Soultunes: "soultunes",
   };

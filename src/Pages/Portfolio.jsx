@@ -6,6 +6,7 @@ import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
 import crwn from "../Assets/crwn3.png";
 // import zinter from "../Assets/zinter.png";
+import ultimate from '../Assets/ultimatee1.png'
 import auto from "../Assets/auto1.png";
 import soultunes1 from "../Assets/soultunes1.png";
 
@@ -28,13 +29,13 @@ export default function Portfolio() {
       image: crwn,
       color: "bg-slate-50",
     },
-    // {
-    //   title: "Zinter",
-    //   client: "Zinter",
-    //   category: "Logistics annd Transportation",
-    //   image: zinter,
-    //   color: "bg-purple-50",
-    // },
+    {
+      title: "Da Ultimate Stores",
+      client: "Da Ultimate Stores",
+      category: "E-Commerce",
+      image: ultimate,
+      color: "bg-purple-50",
+    },
     {
       title: "Auto Spa Club",
       client: "Auto Spa Club",

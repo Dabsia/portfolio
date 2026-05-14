@@ -11,6 +11,10 @@ import crwn4 from "../Assets/crwn4.png";
 // import zinter2 from "../Assets/zinter2.png";
 // import zinter4 from "../Assets/zinter4.png";
 // import zinter3 from "../Assets/zinter3.png";
+import ultimate1 from '../Assets/ultimatee1.png'
+import ultimate2 from '../Assets/ultimate2.png'
+import ultimate3 from '../Assets/ultimate3.png'
+import ultimate4 from '../Assets/ultiimate4.png'
 import auto1 from "../Assets/auto1.png";
 import auto2 from "../Assets/auto2.png";
 import auto3 from "../Assets/auto3.png";
@@ -71,61 +75,62 @@ export default function ProjectDetail() {
       ],
       link: "https://dabsia-crwn-clothn.netlify.app/shop",
       nextProject: {
+        id: "da-ultimate-stores",
+        title: "Da Ultimate Stores",
+      },
+    },
+    'da-ultimate-stores': {
+      id: "da-ultimate-stores",
+      title: "Da Ultimate Stores",
+      client: "Da Ultimate stores",
+      category: "E-Commerce",
+      year: "2026",
+      role: "Fullstack Developer",
+      heroImage: ultimate1,
+      images: [ultimate4, ultimate3, ultimate2],
+      description:
+        "A full-featured e-commerce web application developed for an international grocery and food retail brand based in Tartu, specializing in Asian and African food products. The platform features a modern customer-facing storefront alongside a robust admin dashboard for managing products, inventory, and customer orders efficiently. Integrated with Stripe for secure online payments, the application delivers a seamless shopping experience through a clean, responsive, and user-friendly interface",
+      challenge:
+        "The challenge was to design and develop a scalable e-commerce platform that reflects the brand’s professionalism while delivering a fast, intuitive, and reliable shopping experience. Customers needed an easy way to browse and purchase authentic Asian and African food products, complete secure payments, and manage orders with confidence. On the administrative side, the platform also required an efficient management system for handling products, inventory, and customer orders seamlessly.",
+      solution:
+        "I developed a fast, scalable e-commerce platform using React.js, designed to provide a seamless shopping experience for customers purchasing Asian and African food products. The platform features an intuitive and responsive user interface, advanced product management capabilities, secure online payments through Stripe, and a comprehensive admin dashboard for managing inventory, orders, and customer activity. The solution also includes real-time order tracking, detailed sales reporting, and optimized performance to ensure smooth navigation and efficient store management across all devices.",
+        technologies: [
+          "React.js",
+          "Redux",
+          "Tailwind CSS",
+          "REST API",
+          "Stripe",
+          "JavaScript",
+          ],
+          
+      features: [
+        "Advanced product and inventory management system",
+        "Secure online payments via  integration",
+        "Comprehensive admin dashboard for managing products, orders",
+        "Real-time order tracking and order status management",
+        "Responsive design optimized for mobile, tablet, and desktop devices",
+        "Fast and intuitive product browsing experience",
+        "Performance-optimized media and product image loading",
+        "Sales reporting and analytics for operational insights",
+        "Modern UI with smooth interactions and seamless user experience"
+        ],
+        
+      results: [
+        "Delivered a seamless and user-friendly shopping experience for customers purchasing Asian and African food products",
+        "Improved inventory and order management efficiency through a centralized admin dashboard",
+        "Enabled secure and reliable online transactions through  integration",
+        "Enhanced customer satisfaction with responsive design and smooth navigation across devices",
+        "Simplified product, order, and stock management for store administrators",
+        "Provided real-time order tracking and detailed sales reporting for better operational insights",
+        "Increased customer trust and engagement through a fast, modern, and intuitive platform experience"
+        ],
+        
+      link: "https://daultimatestores.com",
+      nextProject: {
         id: "auto-spa-club",
         title: "Car Wash Business",
       },
     },
-    // zinter: {
-    //   id: "zinter",
-    //   title: "Zinter",
-    //   client: "Zinter",
-    //   category: "Logistics & Transportation",
-    //   year: "2025",
-    //   role: "Lead Frontend Developer",
-    //   heroImage: zinter1,
-    //   images: [zinter4, zinter3, zinter2],
-    //   description:
-    //     "A digital platform for a trusted Dutch moving and logistics company. The website helps users easily schedule local and international moves, track shipments in real time, and explore services through a clean, intuitive, and interactive interface designed for the Netherlands market.",
-    //   challenge:
-    //     "The challenge was to create a digital platform that conveys the company’s reliability and professionalism while ensuring fast performance, intuitive navigation, and accessibility for users across the Netherlands. Customers needed a seamless way to schedule moves, get quotes, and track their shipments with confidence.",
-    //   solution:
-    //     "We developed a fast, intuitive web platform using React.js, featuring interactive maps that allow users to verify their current and new addresses. AI-assisted item scanning lets users quickly list belongings for the move, with the option to manually select items as well. The platform also supports real-time move tracking, detailed reporting, and secure payments through Stripe, creating a seamless end-to-end moving experience.",
-    //   technologies: [
-    //     "React.js",
-    //     "AI",
-    //     "Tailwind CSS",
-    //     "Custom CSS",
-    //     "Google Maps",
-    //     "Redux",
-    //     "API Integration",
-    //     "Stripe Payments",
-    //   ],
-    //   features: [
-    //     "Interactive route and address verification maps",
-    //     "AI-assisted item scanning for move planning",
-    //     "Manual item selection for custom moves",
-    //     "Real-time move tracking dashboard",
-    //     "Secure online payments via Stripe",
-    //     "Automated move reports and summaries",
-    //     "Smooth scroll-based animations for a polished UX",
-    //     "Responsive design optimized for all devices",
-    //     "Performance-optimized media loading",
-    //     "CMS integration for easy service updates",
-    //   ],
-    //   results: [
-    //     "Streamlined the moving process for customers, reducing planning time",
-    //     "Enabled accurate move estimates with AI-assisted item scanning",
-    //     "Improved customer confidence with real-time tracking",
-    //     "Facilitated secure online payments, increasing completed bookings",
-    //     "Received positive feedback from users for ease of use and clarity",
-    //     "Enhanced operational efficiency by digitizing reporting and move management",
-    //   ],
-    //   link: "https://zinter.nl",
-    //   nextProject: {
-    //     id: "auto-spa-club",
-    //     title: "Car Wash Business",
-    //   },
-    // },
     "auto-spa-club": {
       id: "auto-spa-club",
       title: "Car Wash Business",
