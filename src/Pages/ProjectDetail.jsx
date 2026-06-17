@@ -97,7 +97,7 @@ export default function ProjectDetail() {
       technologies: [
         "React.js",
         "Redux",
-        'Nodee Js',
+        'Node Js',
         'MongoDB',
         'Express Js',
         "Tailwind CSS",
