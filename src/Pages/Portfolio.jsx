@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import ProjectShowcase from "../components/ProjectShowcase";
 import ServiceCard from "../components/ServiceCard";
 import crwn from "../Assets/crwn3.png";
-// import zinter from "../Assets/zinter.png";
+import zinter from "../Assets/zinter.png";
 import ultimate from '../Assets/ultimatee1.png'
 import auto from "../Assets/auto1.png";
 import soultunes1 from "../Assets/soultunes1.png";
@@ -27,6 +27,13 @@ export default function Portfolio() {
       client: "Personal",
       category: "E-Commerce",
       image: crwn,
+      color: "bg-slate-50",
+    },
+    {
+      title: "Zinter",
+      client: "Zinter",
+      category: "Logistics",
+      image: zinter,
       color: "bg-slate-50",
     },
     {
@@ -94,9 +101,8 @@ export default function Portfolio() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? "bg-white/80 backdrop-blur-md shadow-sm" : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur-md shadow-sm" : "bg-transparent"
+          }`}
       >
         <div className="max-w-[1400px] mx-auto px-8 md:px-16 py-6 flex items-center justify-between">
           <motion.div

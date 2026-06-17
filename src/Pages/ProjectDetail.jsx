@@ -7,10 +7,10 @@ import crwn from "../Assets/crwnn2.png";
 import crwn2 from "../Assets/crwn2.png";
 import crwn3 from "../Assets/crwn3.png";
 import crwn4 from "../Assets/crwn4.png";
-// import zinter1 from "../Assets/zinter1.png";
-// import zinter2 from "../Assets/zinter2.png";
-// import zinter4 from "../Assets/zinter4.png";
-// import zinter3 from "../Assets/zinter3.png";
+import zinter1 from "../Assets/zinter1.png";
+import zinter2 from "../Assets/zinter2.png";
+import zinter4 from "../Assets/zinter4.png";
+import zinter3 from "../Assets/zinter3.png";
 import ultimate1 from '../Assets/ultimatee1.png'
 import ultimate2 from '../Assets/ultimate2.png'
 import ultimate3 from '../Assets/ultimate3.png'
@@ -94,15 +94,15 @@ export default function ProjectDetail() {
         "The challenge was to design and develop a scalable e-commerce platform that reflects the brand’s professionalism while delivering a fast, intuitive, and reliable shopping experience. Customers needed an easy way to browse and purchase authentic Asian and African food products, complete secure payments, and manage orders with confidence. On the administrative side, the platform also required an efficient management system for handling products, inventory, and customer orders seamlessly.",
       solution:
         "I developed a fast, scalable e-commerce platform using React.js, designed to provide a seamless shopping experience for customers purchasing Asian and African food products. The platform features an intuitive and responsive user interface, advanced product management capabilities, secure online payments through Stripe, and a comprehensive admin dashboard for managing inventory, orders, and customer activity. The solution also includes real-time order tracking, detailed sales reporting, and optimized performance to ensure smooth navigation and efficient store management across all devices.",
-        technologies: [
-          "React.js",
-          "Redux",
-          "Tailwind CSS",
-          "REST API",
-          "Stripe",
-          "JavaScript",
-          ],
-          
+      technologies: [
+        "React.js",
+        "Redux",
+        "Tailwind CSS",
+        "REST API",
+        "Stripe",
+        "JavaScript",
+      ],
+
       features: [
         "Advanced product and inventory management system",
         "Secure online payments via  integration",
@@ -113,8 +113,8 @@ export default function ProjectDetail() {
         "Performance-optimized media and product image loading",
         "Sales reporting and analytics for operational insights",
         "Modern UI with smooth interactions and seamless user experience"
-        ],
-        
+      ],
+
       results: [
         "Delivered a seamless and user-friendly shopping experience for customers purchasing Asian and African food products",
         "Improved inventory and order management efficiency through a centralized admin dashboard",
@@ -123,12 +123,58 @@ export default function ProjectDetail() {
         "Simplified product, order, and stock management for store administrators",
         "Provided real-time order tracking and detailed sales reporting for better operational insights",
         "Increased customer trust and engagement through a fast, modern, and intuitive platform experience"
-        ],
-        
+      ],
+
       link: "https://daultimatestores.com",
       nextProject: {
         id: "auto-spa-club",
         title: "Car Wash Business",
+      },
+    },
+    'zinter': {
+      id: "zinter",
+      title: "Zinter",
+      client: "Personal",
+      category: "Logistics",
+      year: "2025",
+      role: "Lead Frontend Developer",
+      heroImage: zinter1,
+      images: [zinter2, zinter3, zinter4],
+      description:
+        "A streamlined logistics platform designed to help users move their properties quickly and efficiently. Zinter connects customers with moving services through an intuitive booking experience from selecting pickup and drop-off locations to choosing the right truck size and scheduling a move date.",
+      challenge:
+        "The core challenge was building a location-aware booking flow that felt simple and trustworthy for users managing a stressful life event. The platform needed to handle real-time address autocomplete, map visualization, move size selection, and multi-step form state all while remaining fast and responsive across devices.",
+      solution:
+        "I built a modular React frontend with a multi-step booking interface, integrating Google Maps for real-time location autocomplete, coordinate extraction, and route visualization. I engineered a dynamic move size selector supporting house, apartment, and storage categories, and managed complex cross-component state to ensure a smooth, error-free booking experience from location selection through to order confirmation.",
+      technologies: [
+        "React",
+        "JavaScript",
+        "Redux",
+        "Tailwind CSS",
+        "Google Maps API",
+        "React Query",
+        "i18next",
+      ],
+      features: [
+        "Real-time address autocomplete with location suggestions",
+        "Interactive map showing pickup and drop-off routes",
+        "Dynamic move size selector for house, apartment, and storage",
+        "Multi-step booking flow with validation and error handling",
+        "Province detection and service area validation",
+        "Responsive design optimized for mobile and desktop",
+        "Multi-language support via i18n",
+      ],
+      results: [
+        "Delivered a fast, intuitive booking experience for moving logistics",
+        "Reduced user drop-off with clear step-by-step form guidance",
+        "Integrated location intelligence to validate service coverage areas",
+        "Built a scalable component architecture supporting future feature expansion",
+        "Demonstrated end-to-end ownership of a complex, real-world logistics product",
+      ],
+      link: "https://movers-my-app.netlify.app/",
+      nextProject: {
+        id: "crwn-clothn",
+        title: "Crwn Clothn",
       },
     },
     "auto-spa-club": {
@@ -348,9 +394,8 @@ export default function ProjectDetail() {
           {project.images.map((image, index) => (
             <div
               key={index}
-              className={`fade-in-on-scroll ${
-                index === 2 ? "md:col-span-2" : ""
-              }`}
+              className={`fade-in-on-scroll ${index === 2 ? "md:col-span-2" : ""
+                }`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <img
